@@ -2,14 +2,16 @@ body {
 	text-align: center;
 	/*background-color: rgba(195, 195, 220, 0.2);*/
 	/*background-image: linear-gradient(120deg, rgba(195, 195, 220, 0.2), rgba(195, 195, 220, 0.4));*/
-	background-image: linear-gradient(120deg, #e5f6fe 10%, #b7dfe5);
+	/*background-image: linear-gradient(120deg, #e5f6fe 10%, #b7dfe5);*/
+	background-image: linear-gradient(120deg, rgba(110,110,110,0.1), rgba(110,110,110,0.3)), url("images/background.jpg");
+	background-size: fill;
 	margin: 20px;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .avatar {
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	margin: auto;
 	border-radius: 50%;
 	object-fit: cover;
@@ -22,13 +24,14 @@ h1 {
 	font-size: 60px;
 	color: #535368;
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
 h3 {
 	font-family: 'Merriweather', serif;
 	font-size: 30px;
-	color: #4D9DE0;
-	margin-top: 0px;
+	color: #2869B8;
+	margin-top: 15px;
 }
 
 p {
@@ -44,24 +47,27 @@ p {
 #link-lewagon {
 	margin-top: 10px;
 	text-decoration: none;
-	background-color: #4D9DE0;
+	background-color: #2869B8;
 	color: white;
 	padding: 10px 30px;
 	border-radius: 10px;
 	display: inline-block;
 	font-size: 20px;
+	box-shadow: 1px 1px 1px #535368;
 }
 
 #link-lewagon:hover {
-	background-color: #4186BF;
+	background-color: #4D9DE0;
 	color: white;
+	box-shadow: none;
 }
 
 h2 {
 	font-family: 'Merriweather', serif;
 	font-size: 30px;
-	color: #4D9DE0;
+	color: #2869B8;
 	margin-bottom: 0px;
+	padding: 10px;
 }
 
 li {
@@ -90,6 +96,7 @@ ul {
 	border-radius: 10px;
 	margin-bottom: 20px;
 	box-shadow: 2px 2px 2px rgba(195, 195, 220, 0.4);
+	min-height: 200px;
 }
 
 .container {
