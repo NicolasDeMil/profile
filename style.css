@@ -1,8 +1,8 @@
 body {
 	text-align: center;
 	/*background-color: rgba(195, 195, 220, 0.2);*/
-	background-image: linear-gradient(120deg, rgba(195, 195, 220, 0.2), rgba(195, 195, 220, 0.4));
-	/*background-image: linear-gradient(120deg, #e5f6fe 10%, #b7dfe5);*/
+	/*background-image: linear-gradient(120deg, rgba(195, 195, 220, 0.2), rgba(195, 195, 220, 0.4));*/
+	background-image: linear-gradient(120deg, #e5f6fe 10%, #b7dfe5);
 	margin: 20px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -76,7 +76,8 @@ li > a {
 }
 
 i:hover {
-	color: #4D9DE0
+	color: #4D9DE0;
+	transition: 1s;
 }
 
 ul {
